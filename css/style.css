@@ -1,5 +1,5 @@
 body {
-    background-color: #03120D; 
+    background-color: #03120D;
     color: #ffffff;
     font-family: 'Work Sans', sans-serif;
     margin: 0;
@@ -42,7 +42,8 @@ body {
 
 #hero-section {
     min-height: 80vh;
-    padding-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .hero-title {
@@ -109,9 +110,9 @@ body {
 
 
 .hero-main {
-    background: linear-gradient(to right, rgba(5, 13, 10, 0.9), rgba(5, 13, 10, 0.4)), 
-                url('../images/pizza.avif');
-    background-size: 1000px ;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(5, 13, 10, 0.4)), 
+                url('../images/bg.jpg');
+    background-size: 100% ;
     background-position: center;
 
 }
@@ -120,7 +121,7 @@ body {
 
 /* testomonial */
 #testimonial-section {
-    padding: 100px 0;
+    padding: 55px 0;
     background-color: #050d0a;
     color: #FFEDBF;
 }
@@ -297,6 +298,7 @@ body {
 }
 
 
+
 .filter-btn {
     background: transparent;
     border: none;
@@ -366,8 +368,8 @@ body {
 #stats-section {
     padding: 80px 0;
     background-color: #050d0a; 
-    background-image: linear-gradient(rgba(5, 13, 10, 0.8), rgba(5, 13, 10, 0.8)), 
-                      url('../images/ststus.jpg');
+    background-image: linear-gradient(rgba(9, 11, 10, 0.8), rgba(0, 0, 0, 0.8)), 
+                      url('../images/stats.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; 
@@ -691,25 +693,6 @@ body {
     text-decoration: underline;
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
